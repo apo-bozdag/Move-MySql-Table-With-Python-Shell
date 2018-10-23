@@ -10,6 +10,7 @@ class MySqlDump:
         self.DB_USER_PASSWORD = ''
         self.DB_NAME = 'tripian_db'
         self.TO_DB_NAME = 'tripian_tribot'
+        # whereis mysqldump; echo $PATH
         self.MYSQL_DUMP_DIR = 'C:/xampp/mysql/bin'
         self.BACKUP_PATH = 'backup'
         self.FILE_NAME_SCHEMA = self.BACKUP_PATH + '/tribot_schema_pack.sql'
